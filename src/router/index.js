@@ -16,6 +16,7 @@ import node from './node'
 import account from './account'
 import developer from './developer'
 import freecoin from './freecoin'
+import test from './test'
 
 /**
 * hidden: true                   if `hidden:true` will not show in the sidebar(default is false)
@@ -73,6 +74,7 @@ export const wildrouter = [
   account,
   developer,
   freecoin,
+  test,
   {
     path: '*',
     redirect: '/404',
